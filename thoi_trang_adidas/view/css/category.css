@@ -1,0 +1,123 @@
+.category_width {
+    text-align: center;
+    width: 100%;
+    border: none;
+}
+
+.category_width tr {
+    border: 1px solid #e2e2e2;
+}
+
+.category_width th {
+    padding: 8px;
+    border: 1px solid #e2e2e2;
+}
+
+.category_width td {
+    padding: 8px;
+    border: 1px solid #e2e2e2;
+}
+
+.category_width_account {
+    text-align: center;
+    width: 100%;
+    border: none;
+}
+
+.category_width_account tr {
+    border: 1px solid #e2e2e2;
+}
+
+.category_width_account th {
+    padding: 8px;
+    border: 1px solid #e2e2e2;
+}
+
+.category_width_account td {
+    border: 1px solid #e2e2e2;
+}
+
+.delete_category {
+    border-radius: 3px;
+    border: 1px solid #b8b5b5;
+    color: red;
+    text-decoration: none;
+    padding: 3px 10px;
+    margin: 0px 10px;
+}
+
+.edit_category {
+    border-radius: 3px;
+    border: 1px solid #b8b5b5;
+    color: #00e7ff;
+    background: none;
+    text-decoration: none;
+    padding: 3px 10px;
+    margin: 0px 0px 3px 10px;
+}
+
+.edit_category:hover {
+    background: black;
+}
+
+.delete_category:hover {
+    background: black;
+}
+
+.k h2 {
+    text-align: center;
+}
+
+.edit_category1 {
+    border-radius: 3px;
+    border: 1px solid #b8b5b5;
+    color: #00e7ff;
+    background: none;
+    text-decoration: none;
+    margin-left: 10px;
+    padding: 2px 1px;
+    width: 45px;
+    display: grid;
+    justify-items: center;
+    position: relative;
+    top: 10px;
+}
+
+.view {
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    border-radius: 25px;
+    padding: 0px 5px;
+}
+
+.view:hover {
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+.end_main {
+    background: #fafafa;
+    padding: 10px 0px 10px 20px;
+    margin-top: 10px;
+}
+
+.edit_tk {
+    border-radius: 3px;
+    border: 1px solid #b8b5b5;
+    color: #ff0000;
+    background: none;
+    text-decoration: none;
+    /* margin-left: 27px; */
+    padding: 0px 9px;
+}
+
+.edit_tk1 {
+    border-radius: 3px;
+    border: 1px solid #b8b5b5;
+    color: #00e7ff;
+    background: none;
+    text-decoration: none;
+    /* margin-left: 27px; */
+    padding: 0px 14px;
+}

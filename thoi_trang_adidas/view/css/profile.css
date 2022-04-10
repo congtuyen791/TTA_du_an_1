@@ -1,0 +1,68 @@
+.row {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.row1 {
+    padding: 0px 20px;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+
+/* .row1 p {
+    padding: 10px 0px 15px 0px;
+} */
+
+.row1 input {
+    padding: 3px;
+}
+
+.profile-head h4 {
+    line-height: 1.2;
+    font-size: 20px;
+    color: black;
+}
+
+.profile-head h5 {
+    color: #0062cc;
+}
+
+.profile-work a {
+    text-decoration: none;
+    color: black;
+}
+
+.profile-work span {
+    font-size: 17px;
+    color: #2491db;
+}
+
+.profile-work {
+    padding: 15px 0px;
+}
+
+.profile-head a {
+    text-decoration: none;
+    border: 1px solid;
+    padding: 3px;
+    border-radius: 3px;
+    margin-top: 10px;
+    background: black;
+    color: white;
+}
+
+.profile-edit-btn {
+    padding: 4px;
+    text-decoration: none;
+    border: 1px solid;
+    /* padding: 3px; */
+    border-radius: 3px;
+    /* margin-top: 10px; */
+    background: black;
+    color: white;
+}

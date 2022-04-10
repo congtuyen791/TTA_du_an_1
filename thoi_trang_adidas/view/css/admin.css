@@ -1,0 +1,318 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    margin: auto;
+    width: 1440px;
+    background: #ffffff;
+}
+main{
+    width: 100%;
+}
+input:hover {
+    border: 0.5px solid rgb(16, 201, 230);
+}
+
+.the_a {
+    background: black;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+    font-family: serif;
+}
+
+.the_p {
+    color: rgb(0, 0, 0);
+}
+
+.logo a img {
+    width: 150px;
+    margin: 35px 0px 0px 30px;
+}
+
+header menu {
+    display: flex;
+    gap: 30px
+}
+
+menu nav ul {
+    padding-top: 35px;
+}
+
+menu nav ul li {
+    display: inline;
+}
+
+menu nav ul li a {
+    font-family: tahoma, arial, sans-serif;
+    display: inline;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    padding: 3px 20px 5px 20px;
+}
+
+menu nav ul li a:hover {
+    background: black;
+    color: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+.seach_sanpham input {
+    border-radius: 4px;
+    height: 16px;
+    border: 1.6px solid black;
+    margin-top: 35px;
+    padding: 3px;
+}
+
+.seach_sanpham1 button {
+    border: none;
+    background: white;
+    margin: 35px 0px 0px 20px;
+}
+
+.seach_sanpham1 button img {
+    width: 24px;
+}
+
+.cart img {
+    margin: 30px 0px 0px 10px;
+    width: 35px;
+}
+
+
+.account img {
+    margin: 30px 0px 0px 0px;
+    width: 30px;
+}
+
+.text_account {
+    margin-top: 35px;
+}
+
+.text_account a {
+    font-variant: cambria;
+    text-decoration: none;
+    font-size: 18px;
+    /* color: rgb(255, 255, 255); */
+    padding: 3px 10px 5px 10px;
+}
+
+hr {
+    height: 0px;
+    color: #000;
+}
+
+
+/* end header */
+
+.text_account_admin {
+    display: grid;
+    padding: 30px;
+    grid-template-columns: 50px 1fr;
+}
+
+.text_account_admin img {
+    width: 34px;
+}
+
+.text_account_admin h4 {
+    margin-top: 8px;
+}
+
+.admin_dm ul li {
+    padding: 18px 20px;
+    margin: 3px 0px;
+    background: #ffffff;
+    border: none;
+    color: #b0bbbc;
+    border-radius: 4px;
+    font-size: 16px;
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    font-variant: discretionary-ligatures;
+}
+
+.admin_dm ul li p {
+    margin-top: 2px;
+}
+
+.admin_dm ul a {
+    font-size: 14px;
+    color: rgb(219 232 232);
+    text-decoration: none;
+}
+
+.admin_dm ul li img {
+    width: 20px;
+}
+
+.admin_dm {
+    padding: 10px;
+}
+
+.ft_admin {
+    background: #767272;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    padding: 20px;
+}
+
+.admin_function {
+    background: white;
+    border-radius: 10px;
+    padding: 10px 0px 10px 5px
+}
+
+.text_admin_funcition {
+    display: grid;
+    grid-template-columns: 285px 1fr;
+}
+
+.text_admin_funcition12 {
+    grid-template-columns: 250px 1fr;
+    display: grid;
+    padding-left: 10px;
+}
+
+.text_admin_funcition12 p {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-variant: all-small-caps;
+}
+
+.text_admin_funcition p {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-variant: all-small-caps;
+}
+
+.admin_dm ul li p:hover {
+    color: rgb(0, 0, 0);
+}
+
+.input_product {
+    padding: 20px 75px;
+    color: rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr;
+}
+
+.input_product input {
+    padding: 9px;
+    border-radius: 5px;
+    width: 500px;
+    margin: 0px 10px;
+}
+
+.input_product select {
+    padding: 9px;
+    border-radius: 5px;
+    border: 1px solid rgb(179, 179, 179);
+    width: 500px;
+    margin: 0px 10px;
+}
+
+.input_product_bd {
+    border: 1px solid rgb(179, 179, 179);
+}
+
+.input_product label {
+    margin-top: 10px;
+}
+
+.input_product span {
+    margin-top: 10px;
+}
+
+
+/* input gía */
+
+.input_product_vnd {
+    padding: 20px 75px;
+    color: rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: 200px 1fr 1fr 1fr 1fr;
+}
+
+.input_product_vnd input {
+    padding: 9px;
+    border-radius: 5px;
+    width: 299px;
+    margin: 0px 10px;
+}
+
+.input_product_vnd label {
+    margin-top: 10px;
+}
+
+.input_product_vnd span {
+    margin-top: 10px;
+}
+
+
+/* inpu CPU RAM CHÍP */
+
+.input_product_cpu {
+    padding: 20px 75px;
+    color: rgb(0, 0, 0);
+    display: grid;
+    grid-template-columns: 200px 180px 160px 1fr;
+}
+
+.input_product_cpu input {
+    padding: 9px;
+    border-radius: 5px;
+    width: 140px;
+    margin: 1px 10px;
+}
+
+.input_product_cpu label {
+    margin-top: 10px;
+}
+
+.input_product_cpu span {
+    margin-top: 10px;
+}
+
+.add_1 {
+    padding: 20px 75px;
+}
+
+.add_1 button {
+    padding: 10px;
+    color: white;
+    background: black;
+    border-radius: 30px;
+    border: none;
+}
+
+.bnt:hover {
+    color: #0cffff;
+}
+
+.product_conten {
+    width: 470px;
+    height: 140px;
+    font-size: 15px;
+    padding: 20px;
+}
+
+
+/* end main */
+
+.fs_ftrow_clearfix {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.fs_ftrow_clearfix UL LI A {
+    display: inline;
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
